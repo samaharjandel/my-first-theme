@@ -8,7 +8,7 @@ export default apiInitializer((api) => {
   api.registerValueTransformer("home-logo-href", () => "https://example.com");
   api.decorateCookedElement((element, helper) => {
   const myNewParagraph = document.createElement("p");
-  myNewParagraph.textContent = "Hello, this is appended to every post aaa!";
+  myNewParagraph.textContent = "Hello, this is appended to every post bbbbbbbb!";
   element.appendChild(myNewParagraph);
 });
 
